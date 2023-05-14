@@ -1,0 +1,10 @@
+"The best error message is the one that never shows up." - Thomas Fuchs
+"Programs must be written for people to read, and only incidentally for machines to execute." - Harold Abelson
+"The function of good software is to make the complex appear to be simple." - Grady Booch
+"Programs are meant to be read by humans and only incidentally for computers to execute." - Donald Knuth
+"Programs must be written for people to read, and only incidentally for machines to execute." - Abelson and Sussman
+"The computer was born to solve problems that did not exist before." - Bill Gates
+"First, solve the problem. Then, write the code." - John Johnson
+"Learning to code is useful no matter what your career ambitions are." - Arianna Huffington
+"The code you write makes you a programmer. The code you delete makes you a good one. The code you don't have to write makes you a great one." - Mario Fusco
+"Programs must be written with the idea that the reader will be a human, not a machine." - Martin Fowler
