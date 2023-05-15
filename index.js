@@ -14,7 +14,7 @@ const app = {};
 
 //Configuration
 app.config = {
-    timeBetweenQuotes: 1000;
+    timeBetweenQuotes: 1000,
 };
 
 //Function That prints a random quotes
@@ -24,8 +24,15 @@ app.printAQuote = function printAQuote() {
     //Get the length of the quotes
     const quote = allQuotes.length;
     //random number quotes
-    const randomQuotes = mathLibrary.generateRandomNumber(1, quote)
-    const finalQuote = allQuotes[randomQuotes - 1]
-    console.log(finalQuote)
-}
+    const randomQuotes = mathLibrary.generateRandomNumber(1, quote);
+    const finalQuote = allQuotes[randomQuotes - 1];
+    console.log(finalQuote);
+};
 
+// Function that run indefinitely
+app.indefiniteLoop = function indefiniteLoop() {
+    setInterval(app.printAQuote, app.config.timeBetweenQuotes);
+};
+
+//invoke function
+app.indefiniteLoop();
